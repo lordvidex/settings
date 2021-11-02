@@ -14,6 +14,8 @@
 		B96465AD2731A059005DA086 /* Settings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B96465AB2731A059005DA086 /* Settings.xcdatamodeld */; };
 		B96465AF2731A05B005DA086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96465AE2731A05B005DA086 /* Assets.xcassets */; };
 		B96465B22731A05B005DA086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96465B02731A05B005DA086 /* LaunchScreen.storyboard */; };
+		B96465BA2731A086005DA086 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96465B92731A086005DA086 /* UserSettings.swift */; };
+		B96465BC2731A296005DA086 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96465BB2731A296005DA086 /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B96465AE2731A05B005DA086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96465B12731A05B005DA086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B96465B32731A05B005DA086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96465B92731A086005DA086 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		B96465BB2731A296005DA086 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				B96465B02731A05B005DA086 /* LaunchScreen.storyboard */,
 				B96465B32731A05B005DA086 /* Info.plist */,
 				B96465AB2731A059005DA086 /* Settings.xcdatamodeld */,
+				B96465B92731A086005DA086 /* UserSettings.swift */,
+				B96465BB2731A296005DA086 /* AppConstants.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96465A72731A059005DA086 /* ViewController.swift in Sources */,
+				B96465BC2731A296005DA086 /* AppConstants.swift in Sources */,
 				B96465A32731A059005DA086 /* AppDelegate.swift in Sources */,
 				B96465AD2731A059005DA086 /* Settings.xcdatamodeld in Sources */,
+				B96465BA2731A086005DA086 /* UserSettings.swift in Sources */,
 				B96465A52731A059005DA086 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
